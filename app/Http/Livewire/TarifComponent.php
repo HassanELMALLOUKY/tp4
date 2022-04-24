@@ -74,7 +74,7 @@ class TarifComponent extends Component
     public function delete($id)
     {
         if($id){
-            Tarif::find("aaa")->delete();
+            Tarif::where('Tar_Description',$id)->delete();
             //Tarif::find($id)->delete();
             $this->trfs = Tarif::all();
         }

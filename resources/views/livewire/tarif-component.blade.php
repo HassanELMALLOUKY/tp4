@@ -42,7 +42,7 @@
                         <td>
 
                             <button type="button" wire:click.prevent="edit({{ $trf['Tar_Description'] }})" class="btn btn-warning btn-sm">Modifier</button>
-                            <button type="button" wire:click.prevent="delete()" class="btn btn-danger btn-sm">Supprimer</button>
+                            <button type="button" wire:click.prevent="delete({{$trf['Tar_Description']}})" class="btn btn-danger btn-sm">Supprimer</button>
                         </td>
                     </tr>
                 @endforeach

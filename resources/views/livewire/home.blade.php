@@ -22,7 +22,7 @@
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="card">
-                    @livewire('tarif-component')
+                    @livewire('intervention-component')
                 </div>
             </div>
         </div>
